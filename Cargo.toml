@@ -1,0 +1,10 @@
+[package]
+name = "rust_user_hw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = ["server", "app"]
+default-members = ["server"]
